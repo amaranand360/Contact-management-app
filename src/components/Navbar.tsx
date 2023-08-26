@@ -7,7 +7,7 @@ const Navbar:React.ComponentType = () => {
       <nav className="bg-gray-700">
         <div className="container mx-auto">
           <Link to={"/"} className="text-white text-lg font-bold ml-5">
-           React Contact app
+          Contact management app
           </Link>
         </div>
       </nav>
