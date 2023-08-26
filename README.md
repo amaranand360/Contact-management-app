@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Contact Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Contact Management App! This web application allows you to manage your contacts, providing an easy way to add, edit, and view contact details.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-In the project directory, you can run:
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Contact Management App is a simple yet powerful tool designed to help you manage your contacts efficiently. Whether you want to keep track of personal or professional contacts, this app offers a user-friendly interface for adding and editing contact information.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Add Contacts**: Easily add new contacts by providing their name, email, and mobile number.
+- **Edit Contacts**: Update contact information, such as name, email, and mobile number.
+- **View Contacts**: Browse and view a list of all your contacts with relevant details.
+- **Delete Contacts**: Remove unwanted contacts from your list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with the Contact Management App, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine using `git clone https://github.com/amaranand360/Contact-management-app.git`.
+2. Navigate to the project directory: `cd contact-management-app`.
+3. Install the required dependencies using `npm install`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React: Frontend library for building user interfaces.
+- Redux: State management for managing the application's state.
+- React Router: Handling navigation and routing within the app.
+- Tailwind CSS: Styling framework for creating modern and responsive designs.
+- Redux Toolkit: Simplifies state management with a set of tools.
+- Typescript
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the Contact Management App on your local machine, follow these steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. After completing the "Getting Started" section, use the command `npm start` to start the development server.
+2. Open your browser and navigate to `http://localhost:3000` to access the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. **Adding a Contact**: Click on the "Add Contact" button and provide the necessary details.
+2. **Editing a Contact**: Click on the "Edit" button next to a contact's details, make the necessary changes, and click "Update Contact".
+3. **Viewing Contacts**: The main page displays a list of your contacts. You can also view individual contact details.
+4. **Deleting a Contact**: Click on the "Delete" button next to a contact's details to remove it from the list.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
